@@ -1,4 +1,4 @@
-# earlygame-run
+# ![](thumbnail.png) earlygame-run
 
 ![run keybind](screenshot.png)
 
