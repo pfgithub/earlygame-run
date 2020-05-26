@@ -1,4 +1,4 @@
-# ![](thumbnail.png) earlygame-run
+# ![](thumbnail.png) [earlygame-run](https://mods.factorio.com/mod/earlygame-run)
 
 ![run keybind](screenshot.png)
 
