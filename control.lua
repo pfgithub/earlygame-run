@@ -15,7 +15,11 @@ script.on_event(defines.events.on_lua_shortcut, function(event)
   end
 end)
 
-script.on_event("toggle-run", toggleRun)
+script.on_event("toggle-run", function(event)
+  local player = game.players[event.player_index]
+  player.set_shortcut_toggled("toggle-run", true)
+  player.force.character_running_speed_modifier = 1
+end)
 
 script.on_event(defines.events.on_tick, function(event)
   for id, player in pairs(game.players) do
